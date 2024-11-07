@@ -9,6 +9,7 @@ package taller;
  * @author LENOVO
  */
 class TelegramAdapter implements NotificationInterface {
+
     private TelegramAPI telegramAPI;
 
     public TelegramAdapter(TelegramAPI telegramAPI) {
@@ -16,7 +17,7 @@ class TelegramAdapter implements NotificationInterface {
     }
 
     @Override
-    public void sendReport(String message) {
+    public void sendNotif(String message) {
         telegramAPI.sendTelegramMsg(message);
     }
 }

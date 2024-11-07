@@ -6,10 +6,9 @@ package taller;
 
 /**
  *
- * @author LENOVO
+ * @author CMONTES
  */
-// Target Interface
-interface NotificationInterface {
+public interface Notificador {
 
-    void sendNotif(String message);
+    public abstract void send(Report reporte);
 }

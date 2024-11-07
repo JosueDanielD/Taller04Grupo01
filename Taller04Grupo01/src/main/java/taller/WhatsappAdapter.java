@@ -9,6 +9,7 @@ package taller;
  * @author LENOVO
  */
 class WhatsAppAdapter implements NotificationInterface {
+
     private WhatsAppAPI whatsappAPI;
 
     public WhatsAppAdapter(WhatsAppAPI whatsappAPI) {
@@ -16,7 +17,7 @@ class WhatsAppAdapter implements NotificationInterface {
     }
 
     @Override
-    public void sendReport(String message) {
+    public void sendNotif(String message) {
         whatsappAPI.sendWSMsg(message);
     }
 }

@@ -10,8 +10,9 @@ package taller;
  */
 // implementacion concreta
 class MailNotification implements NotificationInterface {
+
     @Override
-    public void sendReport(String message) {
+    public void sendNotif(String message) {
         System.out.println("Enviando mail de notificacion: " + message);
     }
 }

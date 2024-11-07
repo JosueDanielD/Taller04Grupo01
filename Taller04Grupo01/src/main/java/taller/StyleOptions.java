@@ -9,6 +9,7 @@ package taller;
  * @author CMONTES
  */
 class StyleOptions {
+
     public int fontSize;
     public String fontName;
     public String textColor;

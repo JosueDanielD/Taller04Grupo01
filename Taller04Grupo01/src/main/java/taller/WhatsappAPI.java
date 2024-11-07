@@ -9,6 +9,7 @@ package taller;
  * @author LENOVO
  */
 class WhatsAppAPI {
+
     public void sendWSMsg(String text) {
         System.out.println("Enviando mensaje de Whatsapp: " + text);
     }

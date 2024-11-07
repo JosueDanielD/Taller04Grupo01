@@ -9,6 +9,7 @@ package taller;
  * @author LENOVO
  */
 class StyleDecorator extends ReportDecorator {
+
     public StyleDecorator(ReportComponent reportComponent) {
         super(reportComponent);
     }

@@ -9,9 +9,11 @@ package taller;
  * @author CMONTES
  */
 public class ReportManagerSingleton {
+
     private static ReportManagerSingleton instance;
 
-    private ReportManagerSingleton() {}
+    private ReportManagerSingleton() {
+    }
 
     public static ReportManagerSingleton getInstance() {
         if (instance == null) {
@@ -27,4 +29,9 @@ public class ReportManagerSingleton {
     public void viewReport() {
         System.out.println("Viendo reportes en singleton");
     }
+
+    public static void setInstance(ReportManagerSingleton instance) {
+        ReportManagerSingleton.instance = instance;
+    }
+
 }

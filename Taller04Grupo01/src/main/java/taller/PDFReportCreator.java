@@ -9,8 +9,11 @@ package taller;
  * @author LENOVO
  */
 class PDFReportCreator extends ReportCreator {
+
+    Report pdfR;
+
     @Override
     public Report createReport() {
-        return new PDFReport();
+        return pdfR;
     }
 }

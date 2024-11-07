@@ -8,7 +8,7 @@ package taller;
  *
  * @author LENOVO
  */
-class ExcelReport extends Report {
+class ExcelReport implements Report {
     @Override
     public void addContent(String content) {
         System.out.println("Añadiendo contenido al reporte de Excel");

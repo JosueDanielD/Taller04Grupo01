@@ -8,7 +8,8 @@ package taller;
  *
  * @author LENOVO
  */
-class PDFReport extends Report {
+class PDFReport implements Report {
+
     @Override
     public void addContent(String content) {
         System.out.println("Añadiendo contenido al reporte de PDF");

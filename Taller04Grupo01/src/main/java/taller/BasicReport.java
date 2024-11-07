@@ -10,9 +10,9 @@ package taller;
  */
 // Concrete Component
 class BasicReport extends ReportComponent {
+
     @Override
     public String generate() {
         return "Contenido de reporte basico";
     }
 }
-

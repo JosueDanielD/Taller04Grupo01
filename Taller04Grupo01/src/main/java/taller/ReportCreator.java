@@ -10,6 +10,7 @@ package taller;
  */
 // Abstract Factory Creator
 abstract class ReportCreator {
+
     public abstract Report createReport();
 
     public void generateReport(String content, StyleOptions styleOptions) {

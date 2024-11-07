@@ -9,8 +9,8 @@ package taller;
  * @author LENOVO
  */
 class TelegramAPI {
+
     public void sendTelegramMsg(String text) {
         System.out.println("Enviando mensaje de Telegram: " + text);
     }
 }
-

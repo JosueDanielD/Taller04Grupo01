@@ -8,10 +8,12 @@ package taller;
  *
  * @author LENOVO
  */
-
 class WordReportCreator extends ReportCreator {
+
+    Report wordR;
+
     @Override
     public Report createReport() {
-        return new WordReport();
+        return wordR;
     }
 }

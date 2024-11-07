@@ -8,7 +8,8 @@ package taller;
  *
  * @author CMONTES
  */
-class WordReport extends Report {
+class WordReport implements Report {
+
     @Override
     public void addContent(String content) {
         System.out.println("Añadiendo contenido al reporte de word");

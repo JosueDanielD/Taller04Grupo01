@@ -9,7 +9,7 @@ package taller;
  * @author LENOVO
  */
 public class FontDecorator extends ReportDecorator {
-    
+
     public FontDecorator(ReportComponent reportComponent) {
         super(reportComponent);
     }

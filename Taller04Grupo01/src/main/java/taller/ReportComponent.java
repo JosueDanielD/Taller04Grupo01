@@ -9,5 +9,6 @@ package taller;
  * @author LENOVO
  */
 abstract class ReportComponent {
+
     public abstract String generate();
 }
