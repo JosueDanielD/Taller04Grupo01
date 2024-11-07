@@ -8,8 +8,11 @@ package taller;
  *
  * @author LENOVO
  */
-abstract class Report {
-    public abstract void addContent(String content);
-    public abstract void applyStyles(StyleOptions styleOptions);
-    public abstract String generateContent();
+// Concrete Component
+class BasicReport extends ReportComponent {
+    @Override
+    public String generate() {
+        return "Contenido de reporte basico";
+    }
 }
+

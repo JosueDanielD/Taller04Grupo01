@@ -8,8 +8,10 @@ package taller;
  *
  * @author LENOVO
  */
-abstract class Report {
-    public abstract void addContent(String content);
-    public abstract void applyStyles(StyleOptions styleOptions);
-    public abstract String generateContent();
+// implementacion concreta
+class MailNotification implements NotificationInterface {
+    @Override
+    public void sendReport(String message) {
+        System.out.println("Enviando mail de notificacion: " + message);
+    }
 }

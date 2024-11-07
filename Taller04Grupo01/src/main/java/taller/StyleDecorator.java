@@ -8,8 +8,13 @@ package taller;
  *
  * @author LENOVO
  */
-abstract class Report {
-    public abstract void addContent(String content);
-    public abstract void applyStyles(StyleOptions styleOptions);
-    public abstract String generateContent();
+class StyleDecorator extends ReportDecorator {
+    public StyleDecorator(ReportComponent reportComponent) {
+        super(reportComponent);
+    }
+
+    @Override
+    public String generate() {
+        return super.generate() + " con estilos";
+    }
 }

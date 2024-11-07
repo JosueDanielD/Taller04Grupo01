@@ -6,21 +6,21 @@ package taller;
 
 /**
  *
- * @author CMONTES
+ * @author LENOVO
  */
-class WordReport extends Report {
+class ExcelReport extends Report {
     @Override
     public void addContent(String content) {
-        System.out.println("Añadiendo contenido al reporte de word");
+        System.out.println("Añadiendo contenido al reporte de Excel");
     }
 
     @Override
     public void applyStyles(StyleOptions styleOptions) {
-        System.out.println("Aplicando estilos al reporte de word");
+        System.out.println("Aplicando contenido al reporte de Excel");
     }
 
     @Override
     public String generateContent() {
-        return "Contenido de reporte de word";
+        return "Contenido de reporte de Excel";
     }
 }

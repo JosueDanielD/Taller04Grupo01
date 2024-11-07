@@ -8,6 +8,10 @@ package taller;
  *
  * @author CMONTES
  */
-public class StyleOptions {
-    
+class StyleOptions {
+    public int fontSize;
+    public String fontName;
+    public String textColor;
+
+    // Constructor y getters y setters
 }

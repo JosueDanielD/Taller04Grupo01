@@ -6,18 +6,16 @@ package taller;
 
 /**
  *
- * @author CMONTES
+ * @author LENOVO
  */
-public class ReportCreator {
-
-    Report r;
-
-    public Report createReport() {
-
-        return r;
-    }
+// Abstract Factory Creator
+abstract class ReportCreator {
+    public abstract Report createReport();
 
     public void generateReport(String content, StyleOptions styleOptions) {
-
+        Report report = createReport();
+        report.addContent(content);
+        report.applyStyles(styleOptions);
+        System.out.println(report.generateContent());
     }
 }
